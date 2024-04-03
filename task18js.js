@@ -29,14 +29,14 @@ console.log( productFilter);
 // 2. Beş random eded yaradib arraya yigin, sonda ise onlarin cemini gosterin
 
 
-// let general = []
-// general.push(Math.floor(Math.random() * 100))
-// general.push(Math.floor(Math.random() * 100))
-// general.push(Math.floor(Math.random() * 100))
-// general.push(Math.floor(Math.random() * 100))
-// general.push(Math.floor(Math.random() * 100))
+let general = []
+general.push(Math.floor(Math.random() * 100))
+general.push(Math.floor(Math.random() * 100))
+general.push(Math.floor(Math.random() * 100))
+general.push(Math.floor(Math.random() * 100))
+general.push(Math.floor(Math.random() * 100))
 
-// const sum = general.reduce((a, b) => a + b, 0)
+const sum = general.reduce((a, b) => a + b, 0)
 
-// console.log(`ArrayNƏTİCƏ: ${general.join(' + ')} =>  ${sum} `)
+console.log(`ArrayNƏTİCƏ: ${general.join(' + ')} =>  ${sum} `)
 
