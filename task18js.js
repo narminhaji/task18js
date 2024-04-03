@@ -24,19 +24,19 @@ let products = [
   ];
 
 const productList = products.map((product)=>product.price);
-productss = productList.sort((a,b)=>a-b);
-console.log(productss);
+let productFilter=products.sort((a,b) => a.price-b.price);
+console.log( productFilter);
 // 2. Beş random eded yaradib arraya yigin, sonda ise onlarin cemini gosterin
 
 
-let general = []
-general.push(Math.floor(Math.random() * 100))
-general.push(Math.floor(Math.random() * 100))
-general.push(Math.floor(Math.random() * 100))
-general.push(Math.floor(Math.random() * 100))
-general.push(Math.floor(Math.random() * 100))
+// let general = []
+// general.push(Math.floor(Math.random() * 100))
+// general.push(Math.floor(Math.random() * 100))
+// general.push(Math.floor(Math.random() * 100))
+// general.push(Math.floor(Math.random() * 100))
+// general.push(Math.floor(Math.random() * 100))
 
-const sum = general.reduce((a, b) => a + b, 0)
+// const sum = general.reduce((a, b) => a + b, 0)
 
-console.log(`ArrayNƏTİCƏ: ${general.join(' + ')} =>  ${sum} `)
+// console.log(`ArrayNƏTİCƏ: ${general.join(' + ')} =>  ${sum} `)
 
